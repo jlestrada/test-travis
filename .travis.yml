@@ -1,4 +1,4 @@
 language: python
 git:
   depth: false
-script: ./simple-echo.py
+script: python simple-echo.py
