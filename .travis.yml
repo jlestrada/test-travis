@@ -1,4 +1,7 @@
 language: python
 git:
   depth: false
-script: python simple-echo.py
+script: 
+  - python simple-echo.py
+  - pep8 .
+  - pyflakes .
